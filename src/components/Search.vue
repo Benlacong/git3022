@@ -1,7 +1,7 @@
 <template>
   <el-input placeholder="搜地点/查天气/找乐子" v-model="input" @keyup.enter.native="search">
     <el-select v-model="select" slot="prepend" placeholder="请选择">
-      <el-option label="天气" value="weather"></el-option>
+      <el-option label="天气啊啊啊啊" value="weather"></el-option>
       <el-option label="留坑" value="keng"></el-option>
     </el-select>
     <el-button slot="append" icon="el-icon-search" @click="search"></el-button>
